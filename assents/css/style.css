@@ -1,0 +1,534 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Open+Sans:300,400,600,700);
+@import url("../webfont/stylesheet.css");
+
+html, body{
+	background: #eee;
+	font-family: "aller", sans-serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border-collapse: collapse;
+	outline: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.center{
+	width: 1240px;
+	padding: 0 20px;
+	margin: auto;
+}
+
+
+/* Header */
+.header{
+	width: 100%;
+	min-width: 1280px;
+	height: 50px;
+	background: #087396;
+	box-shadow: 2px 2px 3px #cacaca;
+}
+
+	.header .logo{
+		padding-right: 50px;
+		float: left;
+	}
+
+		.header .logo a{
+			color: #fefefe;
+			font-size: 20px;
+		}
+
+			.header .logo a .img{
+				height: 50px;
+				float: left;
+			}
+
+			.header .logo a .title{
+				float: left;
+				text-shadow: 0 1px 1px #333;
+				line-height: 50px;
+			}
+
+	.header .line{
+		width: 1px;
+		height: 50px;
+		background: #dadada;
+		float: left;
+		margin-right: 10px;
+		box-shadow: 1px 0px 2px #959595;
+	}
+
+	.header .menu{
+		float: left;
+		color: #fff;
+	}
+		ul#menu{
+
+		}	
+			ul#menu a{
+				float: left;
+			}
+
+				ul#menu a li{
+					padding: 0 15px;
+					height: 50px;
+					line-height: 50px;
+					color: #fffeee;
+					list-style: none;
+				}
+					ul#menu a li:hover{
+						background: #07617e;
+					}
+
+
+	.header .uye{
+		float: right;
+		line-height: 50px;
+		padding: 0 10px;
+		position: relative;
+	}
+
+		.header .uye a{
+			background: #07617e;
+			margin-right: 10px;
+			color: #fff;
+			padding: 10px 20px;
+		}
+
+			.header .uye a:hover{
+				background: #053b4d;
+			}
+
+
+	.header .profil{
+		float: right;
+		background: #07617e;
+		line-height: 50px;
+		padding: 0 15px;
+		position: relative;	
+	}
+
+		.header .profil .cursor{
+			cursor: pointer;
+		}
+
+		.header .profil span{
+			word-spacing: 2px;
+			color: #eee;
+		}
+
+		.header .profil span.user{
+			color: #fff;
+		}
+
+		.header .profil .bottom{
+			cursor: pointer;
+			width: 10px;
+			padding-top: 13px;
+			padding-left: 10px;
+			padding-right: 10px;
+			float: right;
+		}
+
+
+		/* ALt Menu */
+
+		.header .uye-giris{
+			position: absolute;
+			width: 230px;
+			background: #0b8ab4;
+			box-shadow: 0px 1px 2px #222;
+			left: 10px;
+			display: none;
+		}
+
+			.uye-giris .input{
+				margin: 10px 15px;
+				width: 170px;
+				height: 35px;
+				border: 0;
+				padding-left: 10px;
+				padding-right: 10px;
+				/*padding-right: 45px;*/
+				font-family: "Open Sans", sans-serif;
+				font-weight: 300;
+				font-size: 16px;
+				letter-spacing: 1px;
+				float: left;
+				outline: 0;
+				box-shadow: 2px 2px 2px #07617e;
+				border-radius: 2px;
+			}
+
+			.uye-giris .submit-login{
+				margin: 10px 15px;
+				width: 70px;
+				height: 30px;
+				border: 0;
+				box-shadow: 2px 2px 2px #07617e;
+				border-radius: 2px;
+				background: #07617e;
+				color: #fff;
+				font-size: 13px;
+			}
+
+			.uye-giris .label{
+				color: #fff;
+				padding-left: 5px;
+				font-size: 14px;
+			}
+
+
+		.header .uye-kaydol{
+			position: absolute;
+			width: 230px;
+			background: #0b8ab4;
+			box-shadow: 0px 1px 2px #222;
+			left: 10px;
+			display: none;
+		}
+
+			.uye-kaydol .input{
+				margin: 10px 15px;
+				width: 170px;
+				height: 35px;
+				border: 0;
+				padding-left: 10px;
+				padding-right: 10px;
+				/*padding-right: 45px;*/
+				font-family: "Open Sans", sans-serif;
+				font-weight: 300;
+				font-size: 16px;
+				letter-spacing: 1px;
+				float: left;
+				outline: 0;
+				box-shadow: 2px 2px 2px #07617e;
+				border-radius: 2px;
+			}
+
+			.uye-kaydol .submit-login{
+				margin: 10px 15px;
+				width: 70px;
+				height: 30px;
+				border: 0;
+				box-shadow: 2px 2px 2px #07617e;
+				border-radius: 2px;
+				background: #07617e;
+				color: #fff;
+				font-size: 13px;
+			}
+
+			.uye-kaydol .label{
+				color: #fff;
+				padding-left: 5px;
+				font-size: 14px;
+			}
+
+
+		.header .profil .secenek{
+			position: absolute;
+			width: 230px;
+			background: #0b8ab4;
+			box-shadow: 0px 1px 2px #222;
+			display: none;
+			left: 0;
+		}
+			ul#secenek{}
+				ul#secenek a{
+					color: #fff;
+				}
+					ul#secenek a li{
+						padding: 0 20px;
+						list-style: none;
+					}
+					ul#secenek a li.li{
+						border-top: 1px solid #ccc;
+					}
+
+					ul#secenek a li:hover{
+						background: #07617e;
+					}
+
+
+
+/* Search */
+
+.search{
+	width: 576px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+	.input_search{
+		min-width: 445px;
+		height: 55px;
+		border: 0;
+		padding-left: 10px;
+		padding-right: 10px;
+		/*padding-right: 45px;*/
+		font-family: "Open Sans", sans-serif;
+		font-weight: 300;
+		font-size: 16px;
+		letter-spacing: 1px;
+		float: left;
+		outline: 0;
+		border-left: 1px solid #E8E8E8;
+	}
+
+
+	.submit{
+		width: 55px;
+		height: 55px; 
+		border: 0;
+		background: white url('../images/search.png') no-repeat center center;
+		float: left;
+		border-left: 1px solid #E8E8E8;
+	}
+
+	.detay{
+		float: left;
+		width: 55px;
+		height: 55px;
+		background: white;
+	}
+
+
+
+/* Arama Sonuçları */
+
+.liste{
+	width: 1140px;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 2px 2px 2px #eee;
+}
+
+	.liste .baslik{
+		height: 50px;
+		background: #ddd;
+		border-bottom: 1px solid #ddd;
+		text-align: left;
+		color: #fff;
+		letter-spacing: 1px;
+		border-top-right-radius: 5px;
+
+	}
+
+	.liste .urunler{
+		width: 100%;
+		background: white;
+		border-bottom: 1px solid #cacaca;
+	}
+
+			.liste .firma{
+				width: 120px;
+				padding-left: 10px;
+			}
+
+			.liste .isim{
+				width: 870px;
+				padding-left: 10px;
+				border-right: 1px solid #cacaca;
+				border-left: 1px solid #cacaca;
+				padding-bottom: 10px;
+				padding-top: 10px;
+			}
+				.liste .isim a{
+					color: #00a;
+				}
+					.liste .isim a:hover{
+						color: #007;
+					}
+
+			.liste .fiyat{
+				width: 120px;
+				padding-left: 10px;
+			}
+
+
+
+
+/* Genel */
+.box{
+	background: #fff;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding: 40px;
+	border-radius: 5px;
+	word-wrap: break-word;
+	box-shadow: 1px 1px 2px #ccc;
+	font-size: 19px;
+}
+	.box .baslik{
+		font-size: 32px;
+	}
+	.box .sub-baslik{
+		font-size: 26px;
+	}
+
+	.box li{
+		font-size: 19px;
+		line-height: 38px;
+	}
+
+
+
+
+/* İletişim */
+
+.iletisim{
+	height: 630px;
+	margin: auto;
+	background: #F0F1F2;
+}
+
+	.form{
+		width: 984px;
+		height: 250px;
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+		.form .edit{
+			width: 400px;
+			height: 60px;
+			margin-bottom: 20px;
+			border: 1px solid #D7D8D9;
+		}	
+			.form .edit .ilk{
+				width: 99px;
+				height: 60px;
+				background: #F5F6F7;
+				text-align: center;
+				line-height: 60px;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 14px;
+				float: left;
+				color: #356C79;
+				border-right: 1px solid #D7D8D9;
+			}
+
+			.form .edit .edit-text{
+				width: 280px;
+				height: 60px;
+				border: 0;
+				float: right;
+				padding-left: 10px;
+				padding-right: 10px;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 15px;
+				color: #022;
+			}
+
+		.big-edit{
+			width: 520px;
+			height: 140px;
+			border: 1px solid #D7D8D9;
+		}
+			.big-edit .edit-big-text{
+				width: 500px;
+				height: 120px;
+				border: 0;
+				float: right;
+				padding: 10px;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 15px;
+				color: #022;
+			}
+
+		.button{
+			width: 100px;
+			height: 60px;
+			background: #F5F6F7;
+			border: 0;
+			margin-top: 20px;
+			border: 1px solid #D7D8D9;
+			float: left;
+		}
+			.button .submit{
+				width: 100px;
+				height: 60px;
+				border: 0;
+				font-family: 'Open Sans', sans-serif;
+				color: #656C79;
+				font-size: 15px;
+				background: #F5F6F7;
+			}
+
+	.form .load{
+		float: left;
+		margin-top: 40px;
+		margin-left: 20px;
+		display: none;
+	}
+
+	.form .bilgi{
+		float: left;
+		line-height: 105px;
+		font-size: 18px;
+		margin-left: 20px;
+		display: none;
+	}
+
+
+
+/* Kullanıcı Yorumları */
+.firmalar{
+	width: 100%;
+	height: 70px;
+	position: relative;
+}
+	ul.firmalar{
+		width: 1040px;
+		margin: auto;
+		border: 1px solid blackr;
+	}
+		ul.firmalar li{
+			width: 120px;
+			float: left;
+			list-style: none;
+			margin-left: 5px;
+			margin-right: 5px;
+			text-align: center;
+		}
+			ul.firmalar li a{
+				color: #222;
+			}
+
+.firmalar .line{
+	position: absolute;
+	width: 120px;
+	height: 2px;
+	background: #07617e;
+	top: 50px;
+	left: 5px;
+}
+
+
+/* Footer */
+.footer{
+	width: 100%;
+	height: 80px;
+	background: #043a40;
+	box-shadow: -2px -2px 2px #aaa;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 1px;
+	padding-top: 20px;
+	line-height: 30px;
+}
+
+
+
+

@@ -1,0 +1,57 @@
+/* regular - italic */
+@font-face {
+    font-family: 'aller';
+    src: url('aller_rg-webfont.eot');
+    src: url('aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aller_rg-webfont.woff') format('woff'),
+         url('aller_rg-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aller';
+    src: url('aller_it-webfont.eot');
+    src: url('aller_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aller_it-webfont.woff') format('woff'),
+         url('aller_it-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: oblique;
+}
+/* light - italic */
+@font-face {
+    font-family: 'aller';
+    src: url('aller_ltit-webfont.eot');
+    src: url('aller_ltit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aller_ltit-webfont.woff') format('woff'),
+         url('aller_ltit-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: oblique;
+}
+@font-face {
+    font-family: 'aller';
+    src: url('aller_lt-webfont.eot');
+    src: url('aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aller_lt-webfont.woff') format('woff'),
+         url('aller_lt-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+/* bold - italic */
+@font-face {
+    font-family: 'aller';
+    src: url('aller_bd-webfont.eot');
+    src: url('aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aller_bd-webfont.woff') format('woff'),
+         url('aller_bd-webfont.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aller';
+    src: url('aller_bdit-webfont.eot');
+    src: url('aller_bdit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aller_bdit-webfont.woff') format('woff'),
+         url('aller_bdit-webfont.ttf') format('truetype');
+    font-weight: 900;
+    font-style: oblique;
+}

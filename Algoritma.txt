@@ -1,0 +1,35 @@
+A1- Menu isimlerini çek
+
+A2- Kategorileri array haline getir
+
+A3- Her kategorileriye bir döngü oluştur
+
+	B1- Kategorideki ürün sayısını çek
+
+	B2- Sayıya göre sayfa sayısı belirle
+
+	B3- Tek sayfalılara bir kere, çok sayfalılara birden çok döngü oluştur.
+
+		C1- Her sayfaya döngü döndür
+
+		C2- İsim, fiyat ve link bilgisi çek
+
+		
+
+			D1- Firma adıyla tablo olup olmadığını kontrol et
+
+			D2- Eğer yoksa yeni oluştur
+
+				D3- İsim, fiyat, link, son gün. tarihi ekle
+
+			D4- Eğer varsa isimleri çek
+
+			D5- Yeni gelen isimleri ve eskileri karşılaştır
+
+			D6- Farklılık varsa yenileriyle değiştir
+
+			D7- Fiyat farklıysa fiyat_yeni => fiyat_eski'ye aktar ve yeni fiyatı 'fiyat_yeni'ye kaydet
+
+			D8- Eğer database'deki isimin karşılığı yoksa kaydı sil
+
+			! - Sonucu mail at
